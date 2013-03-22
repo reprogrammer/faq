@@ -1,0 +1,18 @@
+---
+layout: home-layout
+title: Home
+---
+
+<a href="{{site.url}}/feed.xml">
+  <img src="{{site.url}}/assets/img/feed.png" alt="Feed">
+</a>
+
+{% for post in site.posts %}
+<h2>
+  <a href="{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
+</h2>
+<p>{{post.date | date_to_string}}</p>
+<p>{{post.content | strip_html | truncatewords: 55}}</p>
+<p><a href="{{post.url}}">Read more ...</a></p>
+{% endfor %}
+
