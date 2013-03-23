@@ -7,6 +7,13 @@ title: Home
   <img src="{{site.url}}/assets/img/feed.png" alt="Feed">
 </a>
 
+<h1>Table of Contents</h1>
+{% for post in site.posts %}
+<h4>
+  <a href="{{site.url}}{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
+</h4>
+{% endfor %}
+
 {% for post in site.posts %}
 <h2>
   <a href="{{site.url}}{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
