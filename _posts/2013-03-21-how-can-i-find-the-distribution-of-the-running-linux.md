@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: How can I find the distribution of the running Linux?
-categories:
+tags:
 - linux
 ---
 
