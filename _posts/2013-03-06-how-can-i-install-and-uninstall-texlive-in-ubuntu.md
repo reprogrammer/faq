@@ -1,10 +1,12 @@
 ---
 layout: post-layout
-title: How can I install TeXLive in Ubuntu?
+title: How can I install and uninstall TeXLive in Ubuntu?
 tags:
 - linux
 - tex
 ---
+
+### Installation
 
     sudo apt-get install perl-tk
     wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
@@ -31,6 +33,11 @@ The installer says the following, but the symlinks are enough.
 > Add `/usr/local/texlive/2011/texmf/doc/info` to `INFOPATH`.
 >
 > Most importantly, add `/usr/local/texlive/2011/bin/x86_64-linux`.
+
+### Uninstallation
+
+    sudo tlmgr uninstall
+    rm -rf /usr/local/texlive
 
 **References**
 
