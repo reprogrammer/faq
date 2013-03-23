@@ -3,6 +3,7 @@ layout: post-layout
 title: How can I install TeXLive in Ubuntu?
 tags:
 - linux
+- tex
 ---
 
     sudo apt-get install perl-tk
