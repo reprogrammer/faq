@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can set environment variables during startup?
+title: How can I set environment variables during startup?
 tags:
 - linux
 ---
