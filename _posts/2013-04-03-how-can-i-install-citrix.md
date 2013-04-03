@@ -5,12 +5,17 @@ tags:
 - linux
 ---
 
-1. Download
+- Install OpenMotif.
+- Install Citrix.
+  - Download
 [linuxx86-11.100.158406](http://www.citrix.com/English/ss/downloads/results.asp?productID=1689163).
-1. Extract the downloaded archive.
-1. Run `sudo ./setupwfc`.
+  - Extract the downloaded archive.
+  - Run `sudo ./setupwfc`.
+- Run Citrix.
+  - `/usr/lib/ICAClient/wfcmgr`
 
 **References**
 
 - [http://support.citrix.com/article/CTX125285](http://support.citrix.com/article/CTX125285)
+- [https://help.ubuntu.com/community/CitrixICAClientHowTo](https://help.ubuntu.com/community/CitrixICAClientHowTo)
 
