@@ -28,11 +28,11 @@ The installer asks about the following directories. Leave the default settings.
 
 The installer says the following, but the symlinks are enough.
 
-> Add `/usr/local/texlive/2011/texmf/doc/man` to `MANPATH`.
+> Add `/usr/local/texlive/20xy/texmf/doc/man` to `MANPATH`.
 >
-> Add `/usr/local/texlive/2011/texmf/doc/info` to `INFOPATH`.
+> Add `/usr/local/texlive/20xy/texmf/doc/info` to `INFOPATH`.
 >
-> Most importantly, add `/usr/local/texlive/2011/bin/x86_64-linux`.
+> Most importantly, add `/usr/local/texlive/20xy/bin/x86_64-linux`.
 
 ### Uninstallation
 
