@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I set my username for all Mercurial projects?
+title: How can I set the editor for all Mercurial projects?
 tags:
 - mercurial
 ---
