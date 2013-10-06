@@ -6,7 +6,8 @@ tags:
 ---
     hg addremove
 
-**References**
+**References**  
+
 - [https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone](https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone)
 - [http://stackoverflow.com/a/1450420/130224](http://stackoverflow.com/a/1450420/130224)
 

@@ -6,7 +6,7 @@ tags:
 ---
     hg update REV
 
-**References**
+**References**  
 
 - [http://www.selenic.com/mercurial/hg.1.html#update](http://www.selenic.com/mercurial/hg.1.html#update)
 

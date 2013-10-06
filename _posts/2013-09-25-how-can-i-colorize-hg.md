@@ -11,7 +11,7 @@ Add the following piece of code to your `.hgrc` file.
     [color]
     mode = auto
 
-**References**
+**References**  
 
 - [http://mercurial.selenic.com/wiki/ColorExtension](http://mercurial.selenic.com/wiki/ColorExtension)
 

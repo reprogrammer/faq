@@ -14,6 +14,7 @@ repository:
 
     hg view
 
-**References**
+**References**  
+
 - [http://mercurial.selenic.com/wiki/HgkExtension](http://mercurial.selenic.com/wiki/HgkExtension)
 

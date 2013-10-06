@@ -17,7 +17,7 @@ If your changes belong to new branches, use the following command:
 
     hg push --new-branch remote-name
 
-**References**
+**References**  
 
 - [http://stackoverflow.com/a/3979215/130224](http://stackoverflow.com/a/3979215/130224)
 - [http://stackoverflow.com/a/4959205/130224](http://stackoverflow.com/a/4959205/130224)

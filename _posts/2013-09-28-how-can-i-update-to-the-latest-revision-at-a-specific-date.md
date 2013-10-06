@@ -6,7 +6,7 @@ tags:
 ---
     hg update -d yyyy-mm-dd
 
-**References**
+**References**  
 
 - [http://www.selenic.com/mercurial/hg.1.html#update](http://www.selenic.com/mercurial/hg.1.html#update)
 
