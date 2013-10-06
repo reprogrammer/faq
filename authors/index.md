@@ -5,5 +5,5 @@ title: Authors
 
 Mohsen Vakilian
 
-Nick Chen contributed some of the [Git posts]({{site.url}}/git).
+Nick Chen contributed to the [Git posts]({{site.url}}/git).
 
