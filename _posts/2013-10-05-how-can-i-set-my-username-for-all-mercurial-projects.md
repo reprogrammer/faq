@@ -7,5 +7,5 @@ tags:
 Add the following piece of code to your `.hgrc` file.
 
     [ui]
-    username = Mohsen Vakilian <reprogrammer@gmail.com>
+    username = FirstName LastName <username@domain.com>
 
