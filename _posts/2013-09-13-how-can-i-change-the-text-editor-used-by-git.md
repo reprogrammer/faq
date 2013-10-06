@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How do I change the text editor used by Git?
+title: How can I change the text editor used by Git?
 tags:
 - git
 ---
