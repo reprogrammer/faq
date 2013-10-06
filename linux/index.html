@@ -3,37 +3,17 @@ layout: home-layout
 title: Home
 ---
 
-<a href="{{site.url}}/feed.xml">
-  <img src="{{site.url}}/assets/img/feed.png" alt="Feed">
-</a>
-
-<h1>List of Tags</h1>
-<ul>
-<li>
-  <a href="{{site.url}}/eclipse" title="eclipse" rel="bookmark">eclipse</a>
-</li>
-<li>
-  <a href="{{site.url}}/git" title="git" rel="bookmark">git</a>
-</li>
-<li>
-  <a href="{{site.url}}/linux" title="linux" rel="bookmark">linux</a>
-</li>
-<li>
-  <a href="{{site.url}}/subversion" title="subversion" rel="bookmark">subversion</a>
-</li>
-<li>
-  <a href="{{site.url}}/tex" title="tex" rel="bookmark">tex</a>
-</li>
-</ul>
-
 <h1>Table of Contents</h1>
 {% for post in site.posts %}
+{% if post.tags contains 'linux' %}
 <h4>
   <a href="{{site.url}}{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
 </h4>
+{% endif %}
 {% endfor %}
 
 {% for post in site.posts %}
+{% if post.tags contains 'linux' %}
 <h2>
   <a href="{{site.url}}{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
 </h2>
@@ -46,5 +26,6 @@ title: Home
 {% endfor %}
 {% endif %}</p>
 <p>{{post.content}}</p>
+{% endif %}
 {% endfor %}
 
