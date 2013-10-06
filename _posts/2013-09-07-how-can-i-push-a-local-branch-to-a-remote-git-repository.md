@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How an I push a local branch to a remote Git repository?
+title: How can I push a local branch to a remote Git repository?
 tags:
 - git
 ---
