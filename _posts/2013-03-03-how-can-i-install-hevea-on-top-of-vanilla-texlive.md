@@ -30,7 +30,7 @@ And, I got the value "0" on the console, which confirms that 2010-1~1 is greater
 than 2.00. At this point, I concluded that the version number of the virtual
 packages is unspecified. So, I decided to create my own version of tex-common. I
 created a control file for my tex-common package called
-[tex-common.ctl](http://leaf?id=0B2QAwvHwhwl9ZjA1ZjQzMzctNzEzMy00MjYzLTllMmEtYjVjODhkMDk0NGVh&hl=en)
+[tex-common.ctl](https://drive.google.com/file/d/0B2QAwvHwhwl9ZjA1ZjQzMzctNzEzMy00MjYzLTllMmEtYjVjODhkMDk0NGVh/edit?usp=sharing)
 and executed the following commands.
 
     equivs-build tex-common.ctl sudo dpkg -i tex-common_2010-1~1_all.deb
