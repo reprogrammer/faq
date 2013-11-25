@@ -1,7 +1,6 @@
 ---
 layout: post-layout
-title: How can I view a particular revision of a file in my Git repository
-without checking it out?
+title: How can I view a particular revision of a file in my Git repository without checking it out?
 tags:
 - git
 ---
