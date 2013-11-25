@@ -17,7 +17,7 @@ characters in their names properly.
 
 **References**
 
-- http://linux.byexamples.com/archives/80/xargs-use-stardard-output-as-parameter-for-another-command
-- http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/
-- http://www.gnu.org/software/findutils/manual/html_mono/find.html#Unusual-Characters-in-File-Names
+- [http://linux.byexamples.com/archives/80/xargs-use-stardard-output-as-parameter-for-another-command](http://linux.byexamples.com/archives/80/xargs-use-stardard-output-as-parameter-for-another-command)
+- [http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/](http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/)
+- [http://www.gnu.org/software/findutils/manual/html_mono/find.html#Unusual-Characters-in-File-Names](http://www.gnu.org/software/findutils/manual/html_mono/find.html#Unusual-Characters-in-File-Names)
 
