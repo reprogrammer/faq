@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I set up mercurial to use meld as its merge tool?
+title: How can I set up Mercurial to use meld as its merge tool?
 tags:
 - mercurial
 ---

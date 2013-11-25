@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I browse the history of a mercurial repository graphically?
+title: How can I browse the history of a Mercurial repository graphically?
 tags:
 - mercurial
 ---
