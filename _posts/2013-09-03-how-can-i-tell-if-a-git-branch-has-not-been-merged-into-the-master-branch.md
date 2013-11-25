@@ -1,7 +1,6 @@
 ---
 layout: post-layout
-title: How can I tell if a Git branch has not been merged into the master
-branch?
+title: How can I tell if a Git branch has not been merged into the master branch?
 tags:
 - git
 ---
