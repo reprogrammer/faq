@@ -5,6 +5,12 @@ tags:
 - linux
 ---
 
+New command:
+
+    jekyll serve -d _new_site
+
+Deprecated command:
+
     jekyll _new_site --server
 
 **References**
