@@ -41,4 +41,5 @@ The installer says the following, but the symlinks are enough.
 
 **References**
 
+- [http://www.tug.org/texlive/acquire-netinstall.html](http://www.tug.org/texlive/acquire-netinstall.html)
 - [http://www.tug.org/texlive/debian.html](http://www.tug.org/texlive/debian.html)
