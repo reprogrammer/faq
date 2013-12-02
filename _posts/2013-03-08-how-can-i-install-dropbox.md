@@ -26,6 +26,18 @@ Finally, run the following commands to install Dropbox.
     sudo apt-get update
     sudo apt-get install dropbox python-gpgme
 
+The command `sudo apt-get update` reports the following problem:
+
+>W: Duplicate sources.list entry http://linux.dropbox.com/ubuntu/ precise/main
+>amd64 Packages
+>(/var/lib/apt/lists/linux.dropbox.com_ubuntu_dists_precise_main_binary-amd64_Packages)
+>W: Duplicate sources.list entry http://linux.dropbox.com/ubuntu/ precise/main
+>i386 Packages
+>(/var/lib/apt/lists/linux.dropbox.com_ubuntu_dists_precise_main_binary-i386_Packages)
+>W: You may want to run apt-get update to correct these problems
+
+I need to figure out how to resolve the duplicate entry problem.
+
 **References**
 
 - [http://askubuntu.com/a/127187](http://askubuntu.com/a/127187)
