@@ -14,7 +14,10 @@ If you get an error like the following from `apt`:
 Take the last 8 characters of the string in the error message and use it in the
 following two commands:
 
-    gpg --keyserver keyserver.ubuntu.com --recv 7EBC211F
+    gpg --keyserver *keyserver* --recv 7EBC211F
+
+The *keyserver* in the above commands may be a server like
+`keyserver.ubuntu.com` or `pgp.mit.edu`.
 
 The above command will generate an output similar to the following:
 

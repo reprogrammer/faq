@@ -5,32 +5,28 @@ tags:
 - linux
 ---
 
-Add the following repository:
+First, run the following command to add the Dropbox repository.
 
-`deb http://linux.dropbox.com/ubuntu lucid main`
+    sudo add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -sc) main"
 
-Then, refer to
-[https://www.dropbox.com/downloading?os=lnx](https://www.dropbox.com/downloading?os=lnx)
-for updated installation instructions.
+Next, run the command `sudo apt-get update`. You should get an error message
+similar to the following:
 
-    gpg --keyserver pgp.mit.edu --recv-keys 3565780E
-    sudo apt-get update
+> W: GPG error: http://linux.dropbox.com precise Release: The following
+> signatures couldn't be verified because the public key is not available:
+> NO_PUBKEY FC918B335044912E
 
-    W: GPG error: http://linux.dropbox.com karmic Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY FC918B335044912E
+Follow the instructions at
+[{{site.url}}faq/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/]({{site.url}}faq/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/)
+to add the necessary keys. While following the instruction, note that the
+Dropbox's key server is `pgp.mit.edu`.
 
-    gpg --keyserver pgp.mit.edu --recv-keys FC918B335044912E
-    sudo apt-key list
-
-At this point, the keys are not added to apt.
-
-`sudo gpg --armor --export 3565780E | sudo apt-key add -`
-or
-`gpg -a --export 3565780E | sudo apt-key add -`
-
-    sudo gpg --armor --export FC918B335044912E | sudo apt-key add -
-    sudo apt-key list
-
-At this point, the keys are added to apt.
+Finally, run the following commands to install Dropbox.
 
     sudo apt-get update
-    sudo apt-get install nautilus-dropbox
+    sudo apt-get install dropbox python-gpgme
+
+**References**
+
+- [http://askubuntu.com/a/127187](http://askubuntu.com/a/127187)
+
