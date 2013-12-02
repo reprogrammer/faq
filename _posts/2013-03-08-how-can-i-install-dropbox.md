@@ -17,7 +17,7 @@ similar to the following:
 > NO_PUBKEY FC918B335044912E
 
 Follow the instructions at
-[{{site.url}}faq/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/]({{site.url}}faq/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/)
+[{{site.url}}/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/]({{site.url}}/2013/02/24/how-can-i-install-ubuntu-repository-public-keys/)
 to add the necessary keys. While following the instruction, note that the
 Dropbox's key server is `pgp.mit.edu`.
 
