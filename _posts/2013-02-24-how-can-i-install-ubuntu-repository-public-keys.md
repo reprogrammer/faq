@@ -35,6 +35,12 @@ The above command should generate the following output:
 
 >OK
 
+Note the post at [http://askubuntu.com/a/127187](http://askubuntu.com/a/127187)
+suggest that the above two steps can be performed in a single steps. I need to
+try out this command.
+
+    sudo apt-key adv --keyserver *keyserver* --recv-keys 7EBC211F
+
 **References**
 
 - [http://www.univet.hu/users/jkis/Education/Linux/Linux_repositories.txt](http://www.univet.hu/users/jkis/Education/Linux/Linux_repositories.txt)
