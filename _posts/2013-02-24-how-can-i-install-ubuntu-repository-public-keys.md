@@ -14,7 +14,7 @@ If you get an error like the following from `apt`:
 Take the last 8 characters of the string in the error message and use it in the
 following two commands:
 
-    gpg --keyserver *keyserver* --recv 7EBC211F
+    gpg --keyserver keyserver --recv 7EBC211F
 
 The *keyserver* in the above commands may be a server like
 `keyserver.ubuntu.com` or `pgp.mit.edu`.
@@ -39,7 +39,7 @@ Note the post at [http://askubuntu.com/a/127187](http://askubuntu.com/a/127187)
 suggest that the above two steps can be performed in a single steps. I need to
 try out this command.
 
-    sudo apt-key adv --keyserver *keyserver* --recv-keys 7EBC211F
+    sudo apt-key adv --keyserver keyserver --recv-keys 7EBC211F
 
 **References**
 
