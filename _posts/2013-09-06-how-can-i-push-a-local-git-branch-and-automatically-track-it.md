@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I push a local git branch and automatically track it?
+title: How can I push a local Git branch and automatically track it?
 tags:
 - git
 ---

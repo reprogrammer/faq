@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I delete a remote git commit?
+title: How can I delete a remote Git commit?
 tags:
 - git
 ---

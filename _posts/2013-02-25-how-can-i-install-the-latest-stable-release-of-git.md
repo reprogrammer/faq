@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I install the latest stable release of git?
+title: How can I install the latest stable release of Git?
 tags:
 - linux
 - git
