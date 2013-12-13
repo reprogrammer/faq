@@ -16,10 +16,10 @@ The following command removes the remote branch `b1`.
 Before running the above command, make sure that `b1` is not the default branch
 of your repository; otherwise, git will give you an error like the following.
 
-> remote: error: refusing to delete the current branch: refs/heads/b1
-> To https://github.com/user/repo.git
->  ! [remote rejected] b1 (deletion of the current branch prohibited)
-> error: failed to push some refs to 'https://github.com/user/repo.git'
+    remote: error: refusing to delete the current branch: refs/heads/b1
+    To https://github.com/user/repo.git
+     ! [remote rejected] b1 (deletion of the current branch prohibited)
+    error: failed to push some refs to 'https://github.com/user/repo.git'
 
 The following command gives `b2` the new remote.
 
