@@ -4,4 +4,4 @@ permalink: /:year/:month/:day/:title
 rdiscount extensions: [smart]
 baseurl: 
 url: http://reprogrammer.github.io/faq
-last_update_date: December 13, 2013
+last_update_date: December 21, 2013
