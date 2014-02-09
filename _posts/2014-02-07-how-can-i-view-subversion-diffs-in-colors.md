@@ -11,5 +11,5 @@ tags:
 
 **References**  
 
-- [http://www.commandlinefu.com/commands/view/2420/colored-svn-diff]http://www.commandlinefu.com/commands/view/2420/colored-svn-diff()
+- [http://www.commandlinefu.com/commands/view/2420/colored-svn-diff](http://www.commandlinefu.com/commands/view/2420/colored-svn-diff)
 
