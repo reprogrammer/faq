@@ -6,18 +6,18 @@ tags:
 - git
 ---
 
-- Run the following commands to install git remote hg.
+Run the following commands to install git remote hg.
 
-        wget https://raw.github.com/felipec/git/fc/master/git-remote-hg.py -O ~/apps/git-remote-hg
-        chmod +x ~/apps/git-remote-hg
-        export PATH=$PATH:~/apps
+    wget https://raw.github.com/felipec/git/fc/master/git-remote-hg.py -O ~/apps/git-remote-hg
+    chmod +x ~/apps/git-remote-hg
+    export PATH=$PATH:~/apps
 
-- Clone the mercurial repository as a bare git repository.
+Clone the mercurial repository as a bare git repository.
 
     git clone --bare "hg::https://code.google.com/p/jsr308-langtools/" bare-jsr308-langtools
 
-- Create an empty GitHub repository https://github.com/reprogrammer/jsr308-langtools.git
-- Mirror the bare git repository on github.
+Create an empty GitHub repository https://github.com/reprogrammer/jsr308-langtools.git
+Mirror the bare git repository on github.
 
     cd bare-jsr308-langtools
     git push --mirror https://github.com/reprogrammer/jsr308-langtools.git
