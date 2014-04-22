@@ -17,8 +17,8 @@ Clone the mercurial repository as a bare git repository.
     git clone --bare "hg::https://code.google.com/p/jsr308-langtools/" bare-jsr308-langtools
 
 Create an empty GitHub repository
-[https://github.com/reprogrammer/jsr308-langtools.git](git push --mirror
-https://github.com/reprogrammer/jsr308-langtools.git)
+
+    git push --mirror https://github.com/reprogrammer/jsr308-langtools.git
 
 Mirror the bare git repository on github.
 
