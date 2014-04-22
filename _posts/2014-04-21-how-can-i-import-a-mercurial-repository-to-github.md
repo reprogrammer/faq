@@ -8,9 +8,9 @@ tags:
 
 - Run the following commands to install git remote hg.
 
-    wget https://raw.github.com/felipec/git/fc/master/git-remote-hg.py -O ~/apps/git-remote-hg
-    chmod +x ~/apps/git-remote-hg
-    export PATH=$PATH:~/apps
+        wget https://raw.github.com/felipec/git/fc/master/git-remote-hg.py -O ~/apps/git-remote-hg
+        chmod +x ~/apps/git-remote-hg
+        export PATH=$PATH:~/apps
 
 - Clone the mercurial repository as a bare git repository.
 
