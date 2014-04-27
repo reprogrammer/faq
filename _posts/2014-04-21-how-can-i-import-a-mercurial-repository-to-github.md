@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: How can I import a Bitbucket repository to GitHub?
+title: How can I import a Mercurial repository to GitHub?
 tags:
 - mercurial
 - git
