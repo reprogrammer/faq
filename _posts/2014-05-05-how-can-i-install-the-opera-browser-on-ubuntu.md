@@ -2,7 +2,7 @@
 layout: post-layout
 title: How can I install the Opera browser on Ubuntu?
 tags:
-- ubuntu
+- linux
 ---
 
     sudo bash -c 'echo "deb http://deb.opera.com/opera/ stable non-free" > /etc/apt/sources.list.d/opera.list'
