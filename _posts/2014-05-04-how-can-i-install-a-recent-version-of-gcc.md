@@ -10,6 +10,8 @@ tags:
     sudo apt-get install gcc-4.8
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
 
+Similar instructions work for installing other versions of gcc and g++.
+
 **References**  
 
 - [http://askubuntu.com/a/271561](http://askubuntu.com/a/271561)
