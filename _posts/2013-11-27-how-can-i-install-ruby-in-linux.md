@@ -7,7 +7,7 @@ tags:
 
 Run the following command to install RVM.
 
-    \curl -L https://get.rvm.io | bash -s stable --ruby
+    \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
 The above command should report a message of the form below at the end:
 
