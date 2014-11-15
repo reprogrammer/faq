@@ -3,6 +3,7 @@ layout: post-layout
 title: How can I run Eclipse on OS X?
 tags:
 - osx
+- eclipse
 ---
 
 - Run `/usr/libexec/java_home -V` to find the location of an installed JDK.
