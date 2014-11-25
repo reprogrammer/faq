@@ -7,8 +7,8 @@ tags:
 
 Open the Maven Projects view, and then open the Lifecycle tree item. Next,
 right-click on the test goal to creat a configuration. Add the command-line
-option `-DforkCount=0` to the configuration. Finally, run the configuration in
-debug mode.
+option `-DforkMode=never` or `-DforkCount=0` to the configuration. Finally, run
+the configuration in debug mode.
 
 **References**  
 
